@@ -34,4 +34,14 @@ class TestBinaryGCD extends Specification {
   "GCD of 11 and 33 is 11" in {
     binaryGCD(11, 33) must_== 11
   }
+  // Test cases for negative values
+  "GCD of -105 and 3 is 3" in {
+    binaryGCD(-105, 3) must_== 3
+  }
+  "GCD of -105 and -3 is 3" in {
+    binaryGCD(-105, -3) must_== 3
+  }
+  "GCD of 105 and -3 is 3" in {
+    binaryGCD(105, -3) must_== 3
+  }
 }
