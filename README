@@ -1,4 +1,4 @@
-This is a Scala implementation that of Stein's algorithm.
+This is a Scala implementation of Stein's algorithm.
 
 http://en.wikipedia.org/wiki/Binary_GCD_algorithm
 
